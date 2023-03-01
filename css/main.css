@@ -705,138 +705,84 @@ header h2{
     padding: 0 5px;
 }
 /*** CONTACT SECTION ***/
-#contact{
-    background-color: #f9e9e9;
-}
-#contact .full-width{
-    padding: 115px 0;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-#contact .contact-image{
-    
-    width:100%;
-    padding-left: 600px;
-    display: flex;
 
+#contact {
+    background: #f9e9e9;
 }
-#contact #contact-image{
+
+#contact .full-width {
+    padding: 100px 360px;
+    width: 100%;
+    display: flex;
+    
+}
+
+#contact .contact-image {
+    
+    float: left;
+    width: 600px;
+    
+}
+
+#contact #contact-img {
     width: 500px;
     height: 300px;
+    border: 12px solid #ffffff;
     margin: 0 50px;
     box-sizing: border-box;
-    border: 10px solid #ffffff;
 }
-#contact .contact-info{
-    align-self: center;
+
+#contact .contact-info {
+   
+    width: 400px;
     box-sizing: border-box;
-    padding-left: 650px;
-    padding-right: 70px;
-    
+   
 }
+
 #contact h2 {
     font-family: "Lora", serif;
-    font-size: 2.3em;
+    font-weight: 600;
+    font-size:  2.2em;
     margin: 30px 0;
-    display: flex;
-    justify-content: center;
 }
+
 #contact h3 {
     font-size: 1.5em;
-    justify-content: center;
-    display: flex;
     font-weight: 400;
     line-height: 36px;
-    
 }
+
+#contact #email-header {
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 5px 0;
+}
+
+#contact #envelope {
+    padding-right: 15px;
+    width: 25px;
+}
+
 #contact a {
     text-decoration: none;
     color: #5e5d5e;
-    font-size: 1.4em;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-}
-#contact #email-header {
-margin-bottom: 5px;
-
-}
-#contact #socialmedia-header {
-margin: 20px 0 5px 0;
-text-align: center;
-display: flex;
-justify-content: center;
-font-size: 1.4em;
-    
-}
-#contact ul{
-margin-top: 0;
-padding-left: 0;
-list-style: none;
-}
-#contact ul li{
-display: inline-block;
-padding-left: 30px;
-
-
-}
-#contact ul img {
-    padding-right: 50px;
-    padding-top: 10px
-
-  
-}
-
-/***PROJECT PAGE***/
-.project-page{
-    width:1200px;
-    margin: 0 auto;
-    overflow: auto;
-}
-/*** Projects Page Styles ***/
-/***Projects Page Header Styles***/
-header .extra-hero{
-    background:#f9efef;
-}
-/*** Projects Page Projects Styles ***/
-#projects{
-    background: #f5f5f5;
-    text-align: center;
-}
-#projects .full-width{
-    padding:115px 0;
-}
-#projects .project-piece{
-    float: left;
-    width: 300px;
-    padding: 0 50px;
-}
-#projects h2{
-    font-family: 'Lora', serif;
-    font-size: 36px;
-    padding-bottom: 40px;
-}
-#projects h3{
-    font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 1.3em;
     line-height: 36px;
 }
-#projects p{
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
-    padding: 0 5px;
-}
-#projects img{
-    width: 300px;
-    padding-bottom: 30px;
-}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
 }
 
+#contact ul li {
+    display: inline-block;
+    padding-left: 80px;
+    padding-right: 10px;
+}
 
+#contact ul img {
+    padding-right: 30px;
+}
